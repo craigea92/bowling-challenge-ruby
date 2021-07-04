@@ -33,6 +33,6 @@ describe Bowling do
   end
 
   it 'does not allow values over 10' do
-    expect { game.roll(12) }.to raise_error 'Cannot roll values higher than 10'
+    expect { game.roll(12) }.to raise_error 'Cannot roll higher than 10 pins'
   end
 end
