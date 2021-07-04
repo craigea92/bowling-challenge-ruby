@@ -1,12 +1,36 @@
 Bowling Challenge in Ruby
 =================
 
-* Feel free to use google, your notes, books, etc. but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday week
+As a bowler
+So that I can play a bad game of bowling 
+I want to see a score of 0 when I play a gutter game
 
-## The Task
+As a bowler
+So that I can play a slightly better game of bowling  
+I want to see my score when I hit 1 pin on each turn across all 10 frames
+
+As a bowler
+So I can play a good game
+I want to see my bonus accurately reflected when I play a spare round
+
+As a bowler
+So I can get even better
+I would like to see my score reflected when I get a strike
+
+As a bowler
+So I can hit a winning streak
+I would like to see the correct score if I score a strike or a spare in the 10th frame
+
+As a bowler
+So I can become one of the greats
+I can play a perfect game and achieve a score of 300
+
+## To play
+* Clone this repository
+* Run `bundle` to install the dependencies 
+* Open `irb` and require `./lib/bowling.rb`
+
+## Instructions
 
 **THIS IS NOT A BOWLING GAME, IT IS A BOWLING SCORECARD PROGRAM. DO NOT GENERATE RANDOM ROLLS. THE USER INPUTS THE ROLLS.**
 
